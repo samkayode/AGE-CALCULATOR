@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: o;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+   background-image: url(nature2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed; 
+   opacity: 0.7;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+  
+}
+    /*Container*/
+.container{
+    height: 50vh;
+    width: 800px;
+    background: hsl(0, 0%, 93%);
+    margin: 50px auto 50px; 
+    border-radius: 20px;
+}
+.main_con{
+    text-align: center;
+    padding-top: 150px;
+}
+input{
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    opacity: 1;
+}
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.container-btn{
+    margin-top: 20px;
+    font-size: 25px;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 3px;
+    background-color: hsl(180, 80%, 20%);
+    cursor: pointer;
+}
+.container-btn:hover{
+    opacity: 0.9;
+}
+#result{
+   margin-top: 35px; 
+   font-size: 17px;
+   font-weight: 500;
+   font-family:  Arial, Helvetica, sans-serif;
+}
+
